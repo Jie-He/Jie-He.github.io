@@ -18,9 +18,9 @@ body{
     float: left;
     border-radius: 25px;
     border: 2px solid black;
-    padding: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
     width: 512px;
-    height: 360px;
+    height: 400px;
     font-family: 'Courier New', Courier, monospace;
     box-shadow: 5px 5px;
     margin-top: 10px;
@@ -29,7 +29,7 @@ body{
 
 .item1{ grid-area: main;  }
 .item2{ grid-area: right;
-        text-align: center; }
+        text-align: left; }
 .item3{ grid-area: footer;}
 
 .grid-container{
@@ -43,4 +43,17 @@ body{
 
 footer{
     text-align: center;
+}
+
+td{
+    text-align: left;
+}
+
+.picon {
+    display: inline-block;
+    height: 3em;
+}
+
+.p_class{
+    display:inline-block
 }
